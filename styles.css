@@ -40,3 +40,9 @@ a {
     background-color: #1F2937;
     color: #E5E7EB;
 }
+
+.headline {
+    display: flex;
+    margin-left: 20px;
+}
+
