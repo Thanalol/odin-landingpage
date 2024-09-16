@@ -39,9 +39,15 @@ a {
 /*start of the styling for the headline off the first section.*/
 .headline {
     display: flex;
-    border: 3px solid red;
     justify-content: space-between;
-    align-content: center;
+}
+
+#logo {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 20px;
+    width: 350px;
+    margin-top: 50px;
 }
 
 h1 {
@@ -58,7 +64,4 @@ h2 {
 
 #btone {
     background-color: #3882F6;
-    display: flex;
-    justify-content: space-between;
 };
-
