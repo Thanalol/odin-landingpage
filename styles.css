@@ -25,6 +25,11 @@ body {
     gap: 18px;
     margin-right: 50px;
     list-style-type: none;
+    transition-duration: 0.4s;
+}
+
+a:hover{
+    color: #3882F6;
 }
 
 a {
@@ -35,6 +40,8 @@ a {
     background-color: #1F2937;
     color: #E5E7EB;
 }
+
+
 
 /*start of the styling for the headline off the first section.*/
 .headline {
@@ -102,7 +109,8 @@ h2 {
 
 #eins  {
     width: 200px;
-    height: auto;    
+    height: auto; 
+       
 }
 
 .imgone {
@@ -122,4 +130,9 @@ h2 {
 #vier {
     width: 200px;
     height: auto;
+}
+
+p {
+    font-size: 12px;
+    margin: 50px;
 }
