@@ -96,14 +96,30 @@ h2 {
 
 .second-flex {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    
+    justify-content: center;
+    align-items: center;       
 }
 
-#eins {
+#eins  {
+    width: 200px;
+    height: auto;    
+}
+
+.imgone {
+    text-align: center;
+}
+
+#zwei {
     width: 200px;
     height: auto;
 }
 
+#drei {
+    width: 200px;
+    height: auto;
+}
+
+#vier {
+    width: 200px;
+    height: auto;
+}
