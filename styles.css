@@ -36,7 +36,7 @@ a {
     color: white;
 }
 
-.dblue {
+.sctone {
     background-color: #1F2937;
     color: #E5E7EB;
 }
@@ -103,13 +103,14 @@ h2 {
 
 .second-flex {
     display: flex;
-    justify-content: center;
-    align-items: center;       
+    justify-content: space-between;
+          
 }
 
 #eins  {
     width: 200px;
     height: auto; 
+    border: 3px solid black;
        
 }
 
@@ -120,19 +121,28 @@ h2 {
 #zwei {
     width: 200px;
     height: auto;
+    border: 3px solid black;
 }
 
 #drei {
     width: 200px;
     height: auto;
+    border: 3px solid black;
 }
 
 #vier {
     width: 200px;
     height: auto;
+    border: 3px solid black;
 }
 
 p {
     font-size: 12px;
     margin: 50px;
+}
+
+#paths {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
 }
