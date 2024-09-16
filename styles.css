@@ -91,3 +91,19 @@ h2 {
     background-color: #E5E7EB;
     color: #3882F6;
 }
+
+/*start of second section*/
+
+.second-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+#eins {
+    width: 200px;
+    height: auto;
+}
+
