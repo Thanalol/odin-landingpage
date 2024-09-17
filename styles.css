@@ -122,27 +122,43 @@ h2 {
     width: 200px;
     height: auto;
     border: 3px solid black;
+    margin-left: 100px;
 }
 
 #drei {
     width: 200px;
     height: auto;
     border: 3px solid black;
+    margin-left: 100px;
 }
 
 #vier {
     width: 200px;
     height: auto;
     border: 3px solid black;
+    margin-left: 100px;
 }
 
 p {
     font-size: 12px;
-    margin: 50px;
+    
 }
 
 #paths {
     text-align: center;
     font-size: 40px;
     margin-top: 20px;
+}
+
+/*Start of third section*/
+
+.sctthree {
+    background-color: #E5E7EB;
+    margin: 200px;
+    padding: 300px;
+}
+
+.sum {
+    text-align: center;
+    font-size: 25px;
 }
