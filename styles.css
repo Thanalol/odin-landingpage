@@ -56,6 +56,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: left;
+    margin-left: 1rem;
 }
 
 .containerRight{
@@ -117,10 +118,42 @@ h2 {
 
 /*start of second section*/
 
+
 .second-flex {
+    display: flex; 
+    margin: 100px 90px;         
+}
+
+.imgone {
     display: flex;
-    justify-content: space-between;
-          
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.imgtwo {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.imgthree {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.imgfour {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
 #eins  {
@@ -130,12 +163,9 @@ h2 {
        
 }
 
-.imgone {
-    text-align: center;
-}
-
 #zwei {
     width: 200px;
+    max-width: 100%;
     height: auto;
     border: 3px solid black;
     margin-left: 100px;
@@ -162,7 +192,7 @@ p {
 
 #paths {
     text-align: center;
-    font-size: 40px;
+    font-size: 5rem;
     margin-top: 20px;
 }
 
